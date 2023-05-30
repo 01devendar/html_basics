@@ -1,0 +1,39 @@
+body{
+    background-color: darkorange;
+}
+form{
+    background-color: azure;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 500px;
+    
+    border: 30px solid;
+    border-image-source: url("/border.jpg");
+    border-image-slice: 300;
+    font-size: xx-large;
+    margin-top: 0;
+    text-align: center;
+        
+
+}
+input{
+    height: 28px;
+    width: 200px;
+    border-radius: 6px;
+    padding-right: 20px;
+    float:right;
+    
+}
+.submit{
+background-color: greenyellow;
+height: 40px;
+align-items: center;
+text-transform: uppercase;
+border: 2px solid black;
+font-size:xx-large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.class{
+    align-self: center;
+}

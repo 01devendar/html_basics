@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+     <h1 class="heading">Student Registration Form</h1>
+
+    <form action="">
+     <label for="fullname">Full Name :</label>    <!-- readonly   required  value   -->
+        <input type="text" id="fullname">         <!--input type hidden-->
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password">
+        <br><br>
+        <label for="E-mail">E-mail</label>
+        <input type="email" id="E-mail">
+        <br><br>
+        <label for="DOB" id="DOB">Date of Birth</label>
+        <input type="date" id="DOB" min="2000-01-01">
+        <br><br>
+        <label for="meeting">Enter your meeting date and time</label>
+        <input type="datetime-local" id="meeting">
+        <br><br>
+        <label for="resume">Upload your resume here</label>
+        <input type="file" id="resume">
+        <br><br>
+        <!-- <input type="image" src="/submit.jpeg" width="80px"> -->
+        <p>Please select your gender</p>
+        <label for="male"> Male</label>
+        <input type="radio" id="male" name="gender" >
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+        
+        <p>all mahindra cars for your wish list:-</p>
+        <label for="mahindra">bolero</label>
+        <input type="checkbox">
+        <br>
+        <label for="mahindra">scorpio</label>
+        <input type="checkbox">
+        <br>
+        <label for="mahindra">xuv</label>
+        <input type="checkbox" id="mahindra" >
+        <br>
+        <label for="Course_duration"> Select your Course Duration</label>
+        
+        <select name="" id="Course_duration">
+           <option value="">1 YEAR</option>
+           <optgroup>
+            <option value="">1 semester</option>
+            <option value="">2 semester</option>
+            <option value="">3 semester</option>
+           </optgroup>
+           <option value="">2 YEAR</option>
+           <option value="">3 YEAR</option>
+           <option value="">4 YEAR</option>
+           <option value="">5 YEAR</option>
+
+        </select>
+        <label for="Query">Enter your Query</label>
+        <textarea name="" id="Query" cols="30" rows="10"></textarea>
+         
+        
+        <br><br>
+        <input type="submit"  class="submit" >
+
+
+    </form>
+
+
+</body>
+</html>

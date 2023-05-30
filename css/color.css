@@ -1,0 +1,19 @@
+p{
+    color: #E23A2E;
+}
+h2{
+   color: #FBBF0D;
+}
+h3{
+    color:#31A450;
+}
+h4{
+    color: #1A73E8;
+}
+
+.div{
+    height:300px;
+    width:200px;
+    background:linear-gradient(#1A73E8,#31A450,#FBBF0D,#E23A2E);
+    border-radius: 5%;
+}

@@ -1,0 +1,26 @@
+.div{
+    background-color: rgb(14, 139, 14);
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    float: left;
+    margin: 10%;
+    
+}
+body{
+    background-color: green;
+}
+.div:hover{
+    box-shadow: 3px -2px 5px black;
+    transform: scale(5);
+}
+img{
+    width: 20%;
+    margin-left:5% ;
+    margin-top: 5%;
+}
+img:hover{
+    width: 500px;
+
+}
+

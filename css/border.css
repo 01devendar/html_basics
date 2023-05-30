@@ -1,0 +1,9 @@
+.image1{
+    border: 30px solid;
+    border-image-source: url("/border.jpg");
+    border-image-slice: 100;
+    outline: 2px solid blue;
+}
+body{
+    background-color:greenyellow;
+}

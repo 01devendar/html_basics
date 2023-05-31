@@ -1,0 +1,37 @@
+body{
+  
+}
+h1{
+    text-shadow: 8px 2px 4px lightgreen;
+    text-align: center;
+    text-decoration: underline;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-left: 20px;
+    float: left;
+}
+.box:hover{
+    box-shadow: -7px 2px 10px black;
+}
+.outer{
+    background-color: green;
+    height: 550px;
+}
+.secondbox{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 4px;
+    float: left;
+    margin-left: 90px;
+
+}
+.secondbox:hover{
+    box-shadow: -7px 2px 10px black;
+}

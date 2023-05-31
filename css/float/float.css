@@ -1,10 +1,24 @@
 body{
-    background-color: blueviolet;
+    background-color: lightcyan;
     color: red;
 }
-
-img{
+pre{
+    border: 2px double black;
+    float:right;
+    margin-right: 40px;
+    margin-left: 2px;
+}
+#tree{
     float: right;
     border: 2px solid black;
     margin: 2px;
+    margin-left: 0;
+}
+.tree{
+    border: 2px solid black;
+}
+marquee{
+    font-size: xx-large;
+    color:green;
+    
 }

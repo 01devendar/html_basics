@@ -1,0 +1,32 @@
+div{
+    background-color:firebrick;
+    height: 500px;
+    margin-right: 0;
+}
+h1{
+    text-align: center;
+}
+h1:hover{
+    opacity: .2;
+}
+li{
+    list-style: none;
+    float: left;
+    margin: 20px;
+}
+li:hover{
+    opacity: 0.5;
+    color: chartreuse;
+}
+
+a{
+    background-color: bisque;
+    text-decoration: none;
+    font-size: x-large;
+    border: 1px solid black;
+    color: black;
+}
+/* a:active is the condition when you click */
+a:active{
+    color: white;
+}

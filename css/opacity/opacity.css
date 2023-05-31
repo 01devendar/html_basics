@@ -1,0 +1,20 @@
+div:hover{
+    border: 3px solid black;
+    color: aquamarine;
+
+}
+div img{
+    float: right;
+    width: 50px;
+    margin-right: 300px;
+    margin-top: 1px;
+    border: 2px solid black;
+    
+}
+p{
+    float:right;
+    font-size: x-large;
+}
+p:hover{
+    opacity: 0.5;
+}

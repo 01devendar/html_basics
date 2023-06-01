@@ -1,0 +1,13 @@
+.first:hover{
+    transform: translate(20px,50px);
+}
+h1{
+    text-align: center;
+}
+
+.second:hover{
+    transform: scale(2,1);
+}
+.third:hover{
+    transform: rotate(-60deg);
+}

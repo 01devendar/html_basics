@@ -1,0 +1,24 @@
+body{
+    background-color:rgb(71, 239, 71);
+    border: 5px solid;
+    border-image-source: url("/bckborder.png");
+    border-image-slice: 100;
+
+}
+#box{
+    border: 2px solid black;
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+}
+@media (max-width:1023px)and (min-width:768px){
+    #box{
+        background-color: red;
+    
+    }
+}
+@media (max-width:768px){
+    #box{
+    background-color:blue;
+    }
+}

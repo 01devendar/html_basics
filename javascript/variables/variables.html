@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+<body>
+    
+
+
+
+
+    <script>
+        let x='hi brother';
+        console.log(x);
+        // here x is a container which holds the provided values inside it
+
+        //we cannot assign the same container in the let
+      function arr() {
+        let x='kaka';
+        console.log(x);
+        // only this function will get to know about the let(variable)
+        // outside of this function the variable will not be used by let
+      }
+      console.log(arr());
+    //   where as when we look at the x 
+    console.log(x);
+    // the x which is present in function is not given the here
+      
+    </script>
+</body>
+</html>

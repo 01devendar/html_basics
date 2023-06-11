@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Java Program</title>
+</head>
+<body>
+    <p id="but">hi same id used here</p>
+    <button onclick="myfun()" id="but">Click Me</button>
+    <p>whenever the same id is used then whenever we call it using the js then 
+        only the first id is called using the dom but whenever we call a element by 
+        class then a collection of code is provided with the same class name
+    </p>
+
+    <script>
+       function myfun(){
+            alert("how are you man");
+        }
+        console.log("enter your age");    
+        let hi=document.getElementById('but');
+        console.log(hi);
+        // here only the first same id element is shown on the console
+        hi.style.color='red';
+    </script>
+</body>
+</html>
